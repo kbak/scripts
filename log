@@ -1,0 +1,5 @@
+#!/bin/sh
+
+now=`date "+%a;%d;%m;%Y;%H;%M;%S;"`
+
+echo $now$1";" >> ~/log.txt
